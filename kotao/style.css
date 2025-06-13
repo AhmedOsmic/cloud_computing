@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #7ecbff;
+}
+
+.container {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: rgba(0, 0, 0, 0.6);
+    margin: 30px auto;
+    width: 90%;
+    max-width: 1100px;
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 2.4em;
+    margin-bottom: 20px;
+    color: #7ecbff;
+}
+
+.table-container {
+    max-height: 400px;
+    overflow-y: auto;
+    margin-bottom: 20px;
+    border: 1px solid #7ecbff;
+    border-radius: 8px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    color: #7ecbff;
+}
+
+th, td {
+    border-bottom: 1px solid #7ecbff33;
+    padding: 12px;
+    font-size: 1.1em;
+}
+
+thead th {
+    position: sticky;
+    top: 0;
+    background-color: rgba(0,0,0,0.7);
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+button {
+    background: transparent;
+    color: #7ecbff;
+    border: 1px solid #7ecbff;
+    padding: 10px 30px;
+    font-size: 1.1em;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #7ecbff22;
+}

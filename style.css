@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: url("background.png") no-repeat center center fixed;
+  background-size: cover;
+  color: white;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.centered-container {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 40px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 0 20px #00ffff33;
+  max-height: 90vh;
+  overflow-y: auto;
+}
+
+.centered-container h1 {
+  font-size: 28px;
+  margin-bottom: 30px;
+  color: #ffffff;
+}
+
+.menu {
+  max-height: 70vh;
+  overflow-y: auto;
+  scrollbar-width: thin;
+  scrollbar-color: rgba(0,255,255,0.2) transparent;
+}
+
+.menu::-webkit-scrollbar {
+  width: 6px;
+}
+
+.menu::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.menu::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 255, 255, 0.2);
+  border-radius: 10px;
+  border: none;
+}
+
+.menu a {
+  text-decoration: none;
+}
+
+.menu button {
+  display: block;
+  width: 220px;
+  padding: 15px 20px;
+  margin: 10px auto;
+  background-color: rgba(0, 255, 255, 0.1);
+  border: 1px solid #00ffff;
+  color: #00ffff;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.menu button:hover {
+  background-color: rgba(0, 255, 255, 0.2);
+}
